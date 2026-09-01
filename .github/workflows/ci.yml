@@ -1,0 +1,57 @@
+name: ci
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: Install runtime deps (CPU-only torch to keep CI cheap)
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Import-smoke — make sure the package builds and every public class instantiates
+        run: |
+          python - <<'PY'
+          import torch
+          from src import (
+              FourierFeatureEncoder,
+              BoundedRankQuadraticAttention,
+              TransformerBlock,
+              BoundedRankVisionTransformer,
+              StandardVisionTransformer,
+              FourierBoundedRankAttention,
+          )
+          # Tiny forward pass to catch shape bugs quickly
+          m = BoundedRankVisionTransformer(
+              img_size=32, patch_size=8, num_classes=5,
+              embed_dim=64, encoding_dim=8, depth=2, ff_dim=128,
+          )
+          out = m(torch.randn(2, 3, 32, 32))
+          assert out.shape == (2, 5), out.shape
+          print("import + forward OK:", out.shape)
+          PY
+
+      - name: Lint (non-blocking, informational only)
+        continue-on-error: true
+        run: |
+          pip install ruff
+          ruff check src/ scripts/ || true

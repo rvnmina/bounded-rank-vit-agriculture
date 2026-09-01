@@ -1,0 +1,22 @@
+All rights reserved.
+
+The code and documentation in this repository are, at present, released without an
+open-source license, pending final decision by the research group's principal
+investigator, Prof. Amlan Chakrabarti (A. K. Choudhury School of Information
+Technology, University of Calcutta; Artificial Intelligence, IIT Kharagpur).
+
+Interim terms:
+  * You may VIEW this repository for personal, non-commercial academic study.
+  * You MAY NOT redistribute, publish, or use the code — in whole or in part —
+    for research publication, commercial deployment, or derivative works,
+    without the prior written consent of Prof. Amlan Chakrabarti.
+  * You MAY NOT re-host the reference PDFs; they belong to their respective
+    publishers (Springer, Elsevier, IEEE, ACM, Nature) and are cited only
+    for scholarly reference in `docs/02-paper-notes/`.
+
+Once a formal open-source license is chosen (see the "License" question in
+`docs/05-mtp2-roadmap.md`), this file will be replaced with the full text of
+that license and the repository's history will preserve this notice.
+
+Maintainer: Ravindra Mina (25AI60R02), M.Tech (AI), IIT Kharagpur.
+Contact via GitHub Issues on this repository.

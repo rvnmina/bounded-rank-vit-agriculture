@@ -1,0 +1,44 @@
+# --- Python -------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- Virtualenvs / IDEs -------------------------------------------
+.venv/
+venv/
+env/
+.env
+.envrc
+.idea/
+.vscode/
+*.swp
+
+# --- Notebooks ----------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Data & artefacts (NEVER commit) ------------------------------
+data/**
+!data/README.md
+results/**
+!results/.gitkeep
+runs/                     # tensorboard / wandb
+wandb/
+lightning_logs/
+
+# --- Model checkpoints --------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# --- OS -----------------------------------------------------------
+.DS_Store
+Thumbs.db

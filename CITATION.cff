@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use the method implemented in this repository, please cite the underlying Scientific Reports paper by Mallick et al. (2026)."
+title: "Bounded-Rank Attention (code accompaniment)"
+version: "0.1.0-pre"
+date-released: "2026-09-01"
+type: software
+authors:
+  - family-names: Mallick
+    given-names: MD Tausif
+    affiliation: "Gurunanak Institute of Technology, Kolkata; A. K. Choudhury School of IT, University of Calcutta"
+  - family-names: Banerjee
+    given-names: Saptarshi
+    affiliation: "Illinois Institute of Technology, Chicago"
+  - family-names: Mattar
+    given-names: Ebrahim Abdulla
+    affiliation: "University of Bahrain"
+  - family-names: Bhattacharya
+    given-names: Pronaya
+    affiliation: "Amity University Kolkata"
+  - family-names: Pal
+    given-names: Sujan
+    affiliation: "Gurunanak Institute of Technology, Kolkata"
+  - family-names: Kumar
+    given-names: Avnish
+    affiliation: "Cornell University"
+  - family-names: Turdiev
+    given-names: Jon
+    affiliation: "San Francisco State University"
+  - family-names: Saha
+    given-names: Himadri Nath
+    affiliation: "Surendranath College, University of Calcutta"
+  - family-names: Chakrabarti
+    given-names: Amlan
+    affiliation: "A. K. Choudhury School of IT, University of Calcutta"
+repository-code: "https://github.com/<your-github-username>/bounded-rank-vit-agriculture"
+license: "See LICENSE file"
+preferred-citation:
+  type: article
+  title: "Quantum-inspired Quadratic Attention with Fourier-Domain Rank Control in Transformer Architectures"
+  authors:
+    - family-names: Mallick
+      given-names: MD Tausif
+    - family-names: Banerjee
+      given-names: Saptarshi
+    - family-names: Mattar
+      given-names: Ebrahim Abdulla
+    - family-names: Bhattacharya
+      given-names: Pronaya
+    - family-names: Pal
+      given-names: Sujan
+    - family-names: Kumar
+      given-names: Avnish
+    - family-names: Turdiev
+      given-names: Jon
+    - family-names: Saha
+      given-names: Himadri Nath
+    - family-names: Chakrabarti
+      given-names: Amlan
+  journal: "Scientific Reports"
+  year: 2026
+  doi: "10.1038/s41598-026-60978-w"
+  note: "Article in press"

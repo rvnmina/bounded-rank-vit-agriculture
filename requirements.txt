@@ -1,0 +1,19 @@
+# Core deep-learning stack — pin to a known-good set; upgrade only after re-running the ablation.
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Training utilities
+timm>=0.9.12            # data pipelines & transforms for ImageNet/LRA
+numpy>=1.24
+Pillow>=10.0
+tqdm>=4.66
+psutil>=5.9              # peak-memory measurement in ablation.py
+
+# Metrics / plotting
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.13
+
+# Notebook / dev
+jupyter>=1.0
+ipywidgets>=8.1
