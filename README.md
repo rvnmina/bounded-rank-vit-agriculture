@@ -1,5 +1,8 @@
 # Bounded-Rank Attention
 
+[![ci](https://github.com/rvnmina/bounded-rank-vit-agriculture/actions/workflows/ci.yml/badge.svg)](https://github.com/rvnmina/bounded-rank-vit-agriculture/actions/workflows/ci.yml)
+
+
 **Quantum-inspired quadratic attention with Fourier-domain rank control in Transformer architectures — applied to agricultural pest/disease vision (Tea, Mung bean, Mustard) and standard vision benchmarks.**
 
 > ⚠️ **Attribution first.** The research direction and original code in this repository were developed by the AI-Lab group under **Prof. Amlan Chakrabarti** (A. K. Choudhury School of Information Technology, University of Calcutta, and Artificial Intelligence, IIT Kharagpur). This repository is maintained by **Ravindra Mina (25AI60R02)**, M.Tech (AI), IIT Kharagpur, under Prof. Chakrabarti's supervision as part of the MTP-2 project, with the explicit approval of the guide. Full attribution: [ATTRIBUTION.md](./ATTRIBUTION.md). Citations: [CITATION.cff](./CITATION.cff).
