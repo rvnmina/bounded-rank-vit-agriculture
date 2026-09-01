@@ -5,7 +5,7 @@ This repository is currently maintained solo by **Ravindra Mina** as part of MTP
 ## Development setup
 
 ```bash
-git clone https://github.com/<your-github-username>/bounded-rank-vit-agriculture.git
+git clone https://github.com/rvnmina/bounded-rank-vit-agriculture.git
 cd bounded-rank-vit-agriculture
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt

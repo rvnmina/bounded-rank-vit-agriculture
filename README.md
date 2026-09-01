@@ -73,7 +73,7 @@ bounded-rank-vit-agriculture/
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-github-username>/bounded-rank-vit-agriculture.git
+git clone https://github.com/rvnmina/bounded-rank-vit-agriculture.git
 cd bounded-rank-vit-agriculture
 
 # 2. Environment (Python 3.10+, CUDA 11.8+ recommended)

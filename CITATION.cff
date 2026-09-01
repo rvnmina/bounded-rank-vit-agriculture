@@ -32,7 +32,7 @@ authors:
   - family-names: Chakrabarti
     given-names: Amlan
     affiliation: "A. K. Choudhury School of IT, University of Calcutta"
-repository-code: "https://github.com/<your-github-username>/bounded-rank-vit-agriculture"
+repository-code: "https://github.com/rvnmina/bounded-rank-vit-agriculture"
 license: "See LICENSE file"
 preferred-citation:
   type: article

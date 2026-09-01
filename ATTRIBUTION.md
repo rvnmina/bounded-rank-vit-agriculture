@@ -34,4 +34,4 @@ Full team page: [`docs/06-team.md`](docs/06-team.md).
 
 ## 3. If you spot a mis-attribution
 
-Please open a GitHub issue in this repository and tag @<maintainer-github-username>; the file will be corrected within the same day and the guide will be notified.
+Please open a GitHub issue in this repository and tag @rvnmina; the file will be corrected within the same day and the guide will be notified.
